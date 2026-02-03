@@ -64,6 +64,57 @@ It’s a foundation for:
 ```bash
 npm install
  cp .env.example .env
-```
+
+RPC_URL="https://eth-mainnet.g.alchemy.com/v2/YOUR_KEY"
+
+🔐 .env is ignored by Git — your keys stay local.
+
+node index.js <token_contract_address>
+
+node index.js 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+
+
+Token analyzer starting...
+Network: mainnet (chainId: 1)
+
+Token: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+Name: USD Coin
+Symbol: USDC
+Decimals: 6
+Total Supply: 49533290454.242409
+
+---
+
+🧪 Safety & Validation Checks
+
+✔ Network detection (prevents wrong-chain queries)
+✔ Contract existence verification
+✔ Graceful handling of missing or non-standard ERC-20 methods
+
+📚 What I Learned
+
+How to query live on-chain state using Ethereum RPC
+
+How ERC-20 metadata is exposed by smart contracts
+
+The importance of chain awareness in Web3 tooling
+
+Structuring small, reusable CLI tools
+
+Secure handling of environment variables
+
+🔮 Future Improvements (Optional)
+
+JSON output mode (--json)
+
+Support for multiple networks
+
+Detection of proxy contracts
+
+Additional token risk heuristics
+
+📄 License
+
+MIT — free to use, modify, and build upon.
 
 
