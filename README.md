@@ -95,18 +95,18 @@ Total Supply: 49533290454.242409
 
 📚 What I Learned
 
---How to query live on-chain state using Ethereum RPC
---How ERC-20 metadata is exposed by smart contracts
---The importance of chain awareness in Web3 tooling
---Structuring small, reusable CLI tools
---Secure handling of environment variables
+- How to query live on-chain state using Ethereum RPC
+- How ERC-20 metadata is exposed by smart contracts
+- The importance of chain awareness in Web3 tooling
+- Structuring small, reusable CLI tools
+- Secure handling of environment variables
 
 🔮 Future Improvements (Optional)
 
---JSON output mode (--json)
---Support for multiple networks
---Detection of proxy contracts
---Additional token risk heuristics
+- JSON output mode (--json)
+- Support for multiple networks
+- Detection of proxy contracts
+- Additional token risk heuristics
 
 📄 License
 
