@@ -68,9 +68,7 @@ npm install
 ```
 RPC_URL="https://eth-mainnet.g.alchemy.com/v2/YOUR_KEY"
 ```
-```
 🔐 .env is ignored by Git — your keys stay local.
-```
 ```
 node index.js <token_contract_address>
 ```
